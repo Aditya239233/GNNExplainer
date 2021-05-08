@@ -1,5 +1,7 @@
 # GNNExplainer
 
+CZ4071 - Network Science
+
 This repository contains the modified code for the paper `GNNExplainer: Generating Explanations for Graph Neural Networks` by [Rex Ying](https://cs.stanford.edu/people/rexy/), [Dylan Bourgeois](https://dtsbourg.me/), [Jiaxuan You](https://cs.stanford.edu/~jiaxuan/), [Marinka Zitnik](http://helikoid.si/cms/) & [Jure Leskovec](https://cs.stanford.edu/people/jure/), presented at [NeurIPS 2019](nips.cc).
 
 [[Arxiv]](https://arxiv.org/abs/1903.03894)
@@ -15,10 +17,6 @@ This repository contains the modified code for the paper `GNNExplainer: Generati
 ```
 The code involves expirements to run benchmarks on GNN explainability on synthetic graphs generated using [Barabási–Albert model](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model)
 
-<p align="center">
-  <img src="./assets/graph.png">
-</p>
-
 ## Results
 
 |  | BA-shapes (Base) | Ba-shapes (motif) |
@@ -33,3 +31,8 @@ The code involves expirements to run benchmarks on GNN explainability on synthet
 | Number of Nodes | 30 | 300 | 3000 |
 | Accuracy | 0.965 | 0.971 | 0.99 |
 <br/>
+
+## Contributors
+
+1. Aditya Chandrasekhar
+2. Vincent Yong Wei Jie
